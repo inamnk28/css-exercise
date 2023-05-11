@@ -37,3 +37,24 @@ li::before {
     background-repeat: no-repeat;
     margin-right: 5px;
 }
+.container {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*form {
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
